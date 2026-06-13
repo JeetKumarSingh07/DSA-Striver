@@ -1,7 +1,7 @@
 // #include<iostream>
 // using namespace std;
 // void function(string name){
-//     cout <<"this is function"<<name<<endl;
+//     cout <<"this is function :-"<<name<<endl;
 
 // }
 // int main (){
@@ -11,8 +11,6 @@
 //     string name2;
 //     cin>>name2;
 //     function(name2);
-//     function(name);
-//     function(name);
     
 //     return 0;
 // }
@@ -34,8 +32,24 @@
 //     return 0;
 // }
 
+#include<iostream>
+using namespace std;
+void sum(int a,int b){
+    int c=a+b;
+    cout<<"The sum of two number is "<<c<<endl;
+}
+int main(){
+    int a,b;
+    cout<<"Enter two number "<<endl;
+    cin>>a>>b;
+    sum(a,b);
+    int e,f;
+    cout<<"Enter two number "<<endl;
+    cin>>e>>f;
+    sum(e,f);
+    return 0;
 
-
+}
 
 
 
@@ -69,23 +83,23 @@
 
 
 
-#include<iostream>
-using namespace std;
-void print2(int n){
-    for (int i=0;i<n;i++){
-        for (int j=0;j<=i;j++){
-            cout<<"*";
-        }
-        cout<<endl;
-    }
-}
-int main (){
-    int t;
-    cin>>t;
-    for (int i=0;i<t;i++){
-        int n;
-        cin>>n;
-        print2(n);
-    } return 0;
+// #include<iostream>
+// using namespace std;
+// void print2(int n){
+//     for (int i=0;i<n;i++){
+//         for (int j=0;j<=i;j++){
+//             cout<<"*";
+//         }
+//         cout<<endl;
+//     }
+// }
+// int main (){
+//     int t;
+//     cin>>t;
+//     for (int i=0;i<t;i++){
+//         int n;
+//         cin>>n;
+//         print2(n);
+//     } return 0;
 
-}
+// }
